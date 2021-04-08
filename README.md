@@ -466,11 +466,33 @@ fi
 
 Recipient="admin@example.com"
 Subject="Greeting"
-Message="Welcome to our site"
+Message="Welcome to our Website"
 `mail -s $Subject $Recipient <<< $Message`
 
 ```
 ----------------------------------------
+
+
+### **28. Get Parse Current Date:**
+
+---------------------------------------
+
+
+```bash
+
+Year=`date +%Y`
+Month=`date +%m`
+Day=`date +%d`
+Hour=`date +%H`
+Minute=`date +%M`
+Second=`date +%S`
+echo `date`
+echo "Current Date is: $Day-$Month-$Year"
+echo "Current Time is: $Hour:$Minute:$Second"
+
+```
+----------------------------------------
+
 
 
 
