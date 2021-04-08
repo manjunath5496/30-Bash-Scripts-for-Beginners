@@ -22,3 +22,16 @@ echo -n "Printing text without newline"
 echo -e "\nRemoving \t backslash \t characters\n"
 ```
 ----------------------------------------
+### **03. Comments:**
+
+---------------------------------------
+
+
+```bash
+# Multiply two numeric value
+((product=5*3))
+
+#Print the result
+echo $product
+```
+----------------------------------------
