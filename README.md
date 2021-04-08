@@ -35,3 +35,18 @@ echo -e "\nRemoving \t backslash \t characters\n"
 echo $product
 ```
 ----------------------------------------
+### **04. Multi-line comment:**
+
+---------------------------------------
+
+
+```bash
+: '
+The following script calculates
+the cube value of the number, 2.
+'
+((x=2*2*2))
+echo $x
+
+```
+----------------------------------------
