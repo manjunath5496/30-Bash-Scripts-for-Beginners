@@ -185,3 +185,87 @@ fi
 
 ```
 ----------------------------------------
+### **12. Case Condition:**
+
+---------------------------------------
+
+
+```bash
+echo "Enter any number"
+read x
+case $x in
+4)
+echo echo "You won the first place" ;;
+20)
+echo "You won the second place" ;;
+840)
+echo "You won the third place" ;;
+*)
+echo "Sorry, try again next time" ;;
+esac
+
+```
+----------------------------------------
+
+
+### **13. Get Arguments from Command Line:**
+
+---------------------------------------
+
+
+```bash
+echo "Total arguments : $#"
+echo "First Argument = $1"
+echo "Second argument = $2"
+
+
+```
+----------------------------------------
+
+### **14. Get arguments from command line with names:**
+
+---------------------------------------
+
+
+```bash
+
+for arg in "$@"
+do
+index=$(echo $arg | cut -f1 -d=)
+val=$(echo $arg | cut -f2 -d=)
+case $index in
+X) x=$val;;
+
+Y) y=$val;;
+
+*)
+esac
+done
+((result=x+y))
+echo "X+Y=$result"
+
+
+
+```
+----------------------------------------
+
+
+### **15. Combine two strings in a variable:**
+
+---------------------------------------
+
+
+```bash
+
+x="Red Hat"
+y="Linux"
+echo "$x$y"
+z=$x+$y
+z+=" was a widely used Linux distribution until its discontinuation in 2004."
+echo $z
+
+```
+----------------------------------------
+
+
+
