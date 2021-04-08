@@ -28,7 +28,7 @@ echo -e "\nRemoving \t backslash \t characters\n"
 
 
 ```bash
-# Multiply two numeric value
+# Multiply two numeric values
 ((product=5*3))
 
 #Print the result
