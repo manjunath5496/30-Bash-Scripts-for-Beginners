@@ -98,3 +98,90 @@ echo "Welcome $name to Myw3schools.com"
 
 ```
 ----------------------------------------
+### **08. If statement:**
+
+---------------------------------------
+
+
+```bash
+x=9
+if [ $x -lt 10 ];
+then
+echo "It is a one digit number"
+else
+echo "It is a two digit number"
+fi
+
+```
+----------------------------------------
+
+
+### **09. And Condition if statement:**
+
+---------------------------------------
+
+
+```bash
+echo "Enter username"
+read username
+echo "Enter password"
+read password
+
+if [[ ( $username == "manju" && $password == "123" ) ]]; then
+echo "valid user"
+else
+echo "invalid user"
+fi
+
+
+```
+----------------------------------------
+
+### **10. Or Condition if statement:**
+
+---------------------------------------
+
+
+```bash
+
+echo "Enter any number"
+read x
+
+if [[ ( $x -eq 12 || $x  -eq 56 ) ]]
+then
+echo "your guess is correct"
+else
+echo "your guess is wrong"
+fi
+
+
+```
+----------------------------------------
+
+
+### **11. Else if and else condition:**
+
+---------------------------------------
+
+
+```bash
+
+echo "Enter your number"
+read x
+
+if [ $x -eq 4 ];
+then
+echo "You won the first place"
+elif [ $x -eq 20 ];
+then
+echo "You won the second place"
+elif [ $x -eq 840 ];
+then
+echo "You won the third place"
+
+else
+echo "Sorry, try again next time"
+fi
+
+```
+----------------------------------------
