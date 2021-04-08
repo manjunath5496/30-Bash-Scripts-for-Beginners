@@ -166,7 +166,7 @@ fi
 
 ```bash
 
-echo "Enter your number"
+echo "Enter any number"
 read x
 
 if [ $x -eq 4 ];
