@@ -274,7 +274,8 @@ echo $z
 
 ```bash
 
-# The value, 6 indicates the starting point from where the substring will start and 5 indicates the length of the substring. 
+# The value, 6 indicates the starting point from where the substring will start 
+# and 5 indicates the length of the substring. 
 
 
 Str="Learn Greek in 30 minutes"
@@ -284,5 +285,37 @@ echo $subStr
 ```
 ----------------------------------------
 
+### **17. Muliply 2 numbers into a variable:**
 
+---------------------------------------
+
+
+```bash
+
+echo "Enter any number"
+read a
+echo "Enter any number"
+read b
+(( product=a*b ))
+echo "The result of multiplication=$product"
+
+```
+----------------------------------------
+
+### **18. Create a Function:**
+
+---------------------------------------
+
+
+```bash
+
+function G2()
+{
+echo 'Bash is a Unix shell and command language.'
+}
+
+G2
+
+```
+----------------------------------------
 
