@@ -267,5 +267,22 @@ echo $z
 ```
 ----------------------------------------
 
+### **16. Get Substring of Strings:**
+
+---------------------------------------
+
+
+```bash
+
+# The value, 6 indicates the starting point from where the substring will start and 5 indicates the length of the substring. 
+
+
+Str="Learn Greek in 30 minutes"
+subStr=${Str:6:5}
+echo $subStr
+
+```
+----------------------------------------
+
 
 
