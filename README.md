@@ -493,6 +493,34 @@ echo "Current Time is: $Hour:$Minute:$Second"
 ```
 ----------------------------------------
 
+### **29. Wait Command:**
+
+---------------------------------------
+
+
+```bash
+
+echo "Wait command" &
+process_id=$!
+wait $process_id
+echo "Exited with status $?"
+
+```
+----------------------------------------
+
+### **30. Sleep Command:**
+
+---------------------------------------
+
+
+```bash
+
+echo "Wait for 5 seconds"
+sleep 5
+echo "Completed"
+
+```
+----------------------------------------
 
 
 
