@@ -393,7 +393,52 @@ fi
 ```
 ----------------------------------------
 
+### **23. Read a file:**
 
+---------------------------------------
+
+
+```bash
+
+file='1.txt'
+while read line; do
+echo $line
+done < $file
+
+```
+----------------------------------------
+
+### **24. Delete a File:**
+
+---------------------------------------
+
+
+```bash
+
+echo "Enter filename to remove"
+read fn
+rm -i $fn
+
+```
+----------------------------------------
+
+
+### **25. Append to file:**
+
+---------------------------------------
+
+
+```bash
+
+echo "Before appending the file"
+cat 1.txt
+
+echo "Learning Red Hat Linux">> 1.txt
+echo "After appending the file"
+cat 1.txt
+
+```
+----------------------------------------
 
 
 
