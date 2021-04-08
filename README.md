@@ -336,3 +336,35 @@ Rectangle_Volume 20 40 30
 ```
 ----------------------------------------
 
+
+### **20. Pass Return Value from Script:**
+
+---------------------------------------
+
+
+```bash
+
+function welcome() {
+
+str="Hi, $name"
+echo $str
+
+}
+
+echo "Enter your name"
+read name
+
+val=$(welcome)
+echo "Return value of the function is $val"
+```
+----------------------------------------
+
+
+
+
+
+
+
+
+
+
