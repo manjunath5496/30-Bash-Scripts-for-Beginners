@@ -70,3 +70,18 @@ done
 
 ```
 ----------------------------------------
+### **06. For Loop:**
+
+---------------------------------------
+
+
+```bash
+# for loop will iterate for 10 times and print all values of the variable, x in single line.
+for (( x=10; x>0; x-- ))
+do
+echo -n "$x "
+done
+printf "\n"
+
+```
+----------------------------------------
