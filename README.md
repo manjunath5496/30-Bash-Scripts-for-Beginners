@@ -359,6 +359,20 @@ echo "Return value of the function is $val"
 ```
 ----------------------------------------
 
+### **21. Make directory:**
+
+---------------------------------------
+
+
+```bash
+
+echo "Enter directory name"
+read newdir
+`mkdir $newdir`
+
+```
+----------------------------------------
+
 
 
 
