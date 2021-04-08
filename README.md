@@ -85,3 +85,16 @@ printf "\n"
 
 ```
 ----------------------------------------
+### **07. Get User Input:**
+
+---------------------------------------
+
+
+```bash
+echo "Enter Your Name"
+read name
+echo "Welcome $name to Myw3schools.com"
+
+
+```
+----------------------------------------
